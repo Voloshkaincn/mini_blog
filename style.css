@@ -1,0 +1,140 @@
+body {
+    font-size: 14px;
+}
+input, textarea, select {
+    display: block;
+    width: 100%;
+}
+label {
+    display: block;
+    margin: 10px auto 5px;
+    cursor: pointer;
+}
+button {
+    margin: 15px 0;
+    cursor:  pointer;
+    border: none;
+    box-shadow: none;
+}
+a {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px auto;
+    display: inline-block;
+}
+h1 {
+    text-align: center;
+    color: chartreuse;
+    text-shadow: 0 0 2px #000771;
+}
+h2 {
+    margin: 0 auto;
+}
+h3 {
+    text-align: center;
+}
+#forma {
+    width: 80%;
+    margin: 0 auto;
+}
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+.nav {
+    width: 200px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px ;
+    background-color: #8BFF3D;
+    color: #000771;
+}
+.nav:hover {
+    background-color: chartreuse;
+    color: #fff;
+}
+.option button {
+    background-color: #BBF494 ;
+    border-radius: 0 0 5px 5px;
+    margin: 0 5px 15px;
+    padding: 5px 15px;
+}
+.option button:hover {
+    color: #000771;
+}
+.news {
+    padding: 15px;
+    border: 3px solid #8BFF3D;
+}
+.link {
+    color: #000771;
+    border-bottom: 1px solid #000771;
+    background-color: #fff;
+}
+.pagination button {
+    background-color: #000771;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.m_text {
+    clear: both;
+    margin: 15px auto;
+}
+.status {
+    text-align: right;
+}
+.right {
+    float: right;
+}
+.left {
+     float: left;
+ }
+.date {
+    margin: 10px auto;
+}
+.admin .m_text {
+    margin: 10px auto 20px;
+}
+.cat, .status {
+    margin-top: -5px;
+}
+.admin .option {
+    display: none;
+}
+.admin .news:hover + div, .admin .option:hover {
+    display: block;
+}
+.btn-blue {
+    cursor: pointer;
+    background-color: #000771;
+    color: #BBF494;
+    padding: 5px 15px;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.forma {
+    width: 100%;
+    margin: 0;
+    background-color: #BBF494;
+}
+.forma select {
+    width: 60%;
+}
+.new_cat {
+    margin: 0;
+    font-size: 14px;
+}
+.new_cat + label {
+    clear: both;
+}
+.form_cat {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
